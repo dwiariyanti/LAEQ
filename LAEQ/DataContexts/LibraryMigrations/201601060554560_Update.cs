@@ -3,7 +3,7 @@ namespace LAEQ.DataContexts.LibraryMigrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate : DbMigration
+    public partial class Update : DbMigration
     {
         public override void Up()
         {
@@ -12,7 +12,7 @@ namespace LAEQ.DataContexts.LibraryMigrations
                 c => new
                     {
                         CustomerID = c.Int(nullable: false, identity: true),
-                        NamePT = c.String(),
+                        Name = c.String(),
                         Address = c.String(),
                         Phone = c.String(),
                         Contact = c.String(),

@@ -170,9 +170,9 @@
     </Compile>
     <Compile Include="DataContexts\ApplicationMigrations\Configuration.cs" />
     <Compile Include="DataContexts\Laeq-Db.cs" />
-    <Compile Include="DataContexts\LibraryMigrations\201601060456515_Initial Create.cs" />
-    <Compile Include="DataContexts\LibraryMigrations\201601060456515_Initial Create.Designer.cs">
-      <DependentUpon>201601060456515_Initial Create.cs</DependentUpon>
+    <Compile Include="DataContexts\LibraryMigrations\201601060554560_Update.cs" />
+    <Compile Include="DataContexts\LibraryMigrations\201601060554560_Update.Designer.cs">
+      <DependentUpon>201601060554560_Update.cs</DependentUpon>
     </Compile>
     <Compile Include="DataContexts\LibraryMigrations\Configuration.cs" />
     <Compile Include="Global.asax.cs">
@@ -276,8 +276,8 @@
     <EmbeddedResource Include="DataContexts\ApplicationMigrations\201601060456259_Initial Create.resx">
       <DependentUpon>201601060456259_Initial Create.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataContexts\LibraryMigrations\201601060456515_Initial Create.resx">
-      <DependentUpon>201601060456515_Initial Create.cs</DependentUpon>
+    <EmbeddedResource Include="DataContexts\LibraryMigrations\201601060554560_Update.resx">
+      <DependentUpon>201601060554560_Update.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

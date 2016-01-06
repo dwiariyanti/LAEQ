@@ -7,13 +7,13 @@ namespace LAEQ.DataContexts.LibraryMigrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.1-30610")]
-    public sealed partial class InitialCreate : IMigrationMetadata
+    public sealed partial class Update : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialCreate));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Update));
         
         string IMigrationMetadata.Id
         {
-            get { return "201601060456515_Initial Create"; }
+            get { return "201601060554560_Update"; }
         }
         
         string IMigrationMetadata.Source

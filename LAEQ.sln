@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAEQ", "LAEQ\LAEQ.csproj", "{00E61F69-650F-4A2E-B793-AA73928C1FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAEQ_DB", "LAEQ_DB\LAEQ_DB.csproj", "{A8CF52E5-C587-4824-828D-3176EA901369}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E61F69-650F-4A2E-B793-AA73928C1FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E61F69-650F-4A2E-B793-AA73928C1FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E61F69-650F-4A2E-B793-AA73928C1FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E61F69-650F-4A2E-B793-AA73928C1FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8CF52E5-C587-4824-828D-3176EA901369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CF52E5-C587-4824-828D-3176EA901369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CF52E5-C587-4824-828D-3176EA901369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CF52E5-C587-4824-828D-3176EA901369}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
